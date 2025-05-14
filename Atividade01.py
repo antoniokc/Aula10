@@ -39,7 +39,16 @@ divisao1 = divisao(num1, num2)
 
 print(f"Os números gerados foram: {num1} e {num2}")
 
-os = int(input("Informe o número da operação desejada: \n 1 - soma \n 2 - subtração \n 3 - multiplicação \n 4 - divisão \n"))
+os = int(input(
+    """Informe o número da operação desejada:
+    \n 1 - soma 
+    \n 2 - subtração 
+    \n 3 - multiplicação 
+    \n 4 - divisão
+
+digite aqui: """
+))
+print(''*30)
 
 if os == 1:
     print("Resultado da soma: ", somar1)
